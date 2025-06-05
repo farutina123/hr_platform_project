@@ -6,3 +6,5 @@ class ResumeSerializer(serializers.ModelSerializer):
         model = Resume
         fields = "__all__"
         read_only_fields = ("user",)
+
+
